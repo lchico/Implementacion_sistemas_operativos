@@ -25,7 +25,6 @@ Embedded software development workspace for microcontrollers.
 
 ## Usage
 * Make sure you have an ```arm-none-eabi-*``` toolchain configured in your ```PATH```. If you don't have it, download [GCC ARM Embedded](https://launchpad.net/gcc-arm-embedded).
-* ```git clone https://github.com/pridolfi/workspace.git && cd workspace```
 * ```cp project.mk.template project.mk```
 * Define ```PROJECT```, ```TARGET``` and ```BOARD``` (optional) variables in ```project.mk``` according to the project you want to compile.
 * Compile with ```make```.
@@ -38,5 +37,3 @@ This was possible thanks to the Argentine Open Industrial Computer project (Proy
 # os
 Simple OS for ARM Cortex-M3/4 processors. Intended for learning.
 
-To be used within https://github.com/pridolfi/workspace.
->>>>>>> 303963e9deb76e8ef475b83fcc0bd729b7e67e6b
